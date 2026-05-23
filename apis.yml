@@ -1,0 +1,216 @@
+aid: godot
+name: Godot Engine
+description: >-
+  Godot Engine is a free and open-source community-driven 2D and 3D game
+  engine released under the MIT License and stewarded by the Godot
+  Foundation. Godot ships an integrated editor plus a deep scripting and
+  extension surface across three primary languages: GDScript (Godot's own
+  typed scripting language), C# (via .NET 8 / Mono in the .NET build), and
+  C++ (via GDExtension, the modern successor to GDNative, which lets native
+  shared libraries register their own classes against the same API the
+  built-in classes use). The engine API is documented per-class at
+  docs.godotengine.org. In addition, the Godot Asset Library at
+  godotengine.org/asset-library/api exposes a public REST API used by the
+  in-editor AssetLib browser to list, search, fetch, and download community
+  plugins, templates, tools, and demos. The Godot project source lives at
+  github.com/godotengine/godot.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://godotengine.org
+created: '2024-01-01'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+  - 2D
+  - 3D
+  - C#
+  - C++
+  - Game Development
+  - Game Engine
+  - GDExtension
+  - GDScript
+  - Godot
+  - Open Source
+  - Plugin
+  - SDK
+apis:
+  - aid: godot:godot-gdscript-api
+    name: Godot GDScript API
+    description: >-
+      GDScript is Godot's first-class scripting language, a high-level
+      dynamically typed (and gradually statically typed) language with
+      Python-like syntax and tight integration with the engine, the
+      editor, and the scene tree. The same engine class API documented at
+      docs.godotengine.org is exposed to GDScript callers and runs inside
+      the engine rather than as a REST surface.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html
+    baseURL: https://docs.godotengine.org
+    tags:
+      - GDScript
+      - Language
+      - Scripting
+    properties:
+      - type: Documentation
+        url: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html
+      - type: ClassReference
+        url: https://docs.godotengine.org/en/stable/classes/
+  - aid: godot:godot-csharp-bindings
+    name: Godot C# / .NET Bindings
+    description: >-
+      Godot's .NET build ships C# bindings over the engine API, letting
+      developers write game logic and editor tooling in C# against the
+      same class library that GDScript and C++ see. C# support targets
+      .NET 8 and is delivered in the dedicated "Godot Engine - .NET" build.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/
+    baseURL: https://docs.godotengine.org
+    tags:
+      - C#
+      - .NET
+      - Scripting
+    properties:
+      - type: Documentation
+        url: https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/
+      - type: GitHubRepository
+        url: https://github.com/godotengine/godot/tree/master/modules/mono
+  - aid: godot:godot-gdextension
+    name: Godot GDExtension (C++ Bindings)
+    description: >-
+      GDExtension is Godot 4's mechanism for binding native C++ (or any
+      language with a C ABI) into the engine without recompiling Godot
+      itself. GDExtension libraries register their own classes against
+      the engine API and behave like first-class engine classes. The
+      official godot-cpp binding repo provides the C++ API headers.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/
+    baseURL: https://docs.godotengine.org
+    tags:
+      - C++
+      - GDExtension
+      - Native
+      - SDK
+    properties:
+      - type: Documentation
+        url: https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/
+      - type: GitHubRepository
+        url: https://github.com/godotengine/godot-cpp
+  - aid: godot:godot-editor-plugin-api
+    name: Godot Editor Plugin API
+    description: >-
+      Godot's editor can be extended in-place with EditorPlugin scripts
+      that add docks, inspector plugins, import plugins, export plugins,
+      gizmos, and custom tool windows. Editor plugins use the same engine
+      class API exposed through GDScript, C#, or GDExtension.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.godotengine.org/en/stable/tutorials/plugins/editor/index.html
+    baseURL: https://docs.godotengine.org
+    tags:
+      - Editor
+      - Plugins
+      - Tooling
+    properties:
+      - type: Documentation
+        url: https://docs.godotengine.org/en/stable/tutorials/plugins/editor/index.html
+  - aid: godot:godot-asset-library-api
+    name: Godot Asset Library API
+    description: >-
+      The Godot Asset Library REST API powers the community asset
+      browser inside the Godot editor (AssetLib tab) and the website at
+      godotengine.org/asset-library. It exposes endpoints to search and
+      filter assets by category, support level, Godot version, license,
+      and keyword, retrieve asset metadata and download URLs, and submit
+      or update assets when authenticated. The library source and API
+      definition live in the godot-asset-library repository.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://github.com/godotengine/godot-asset-library
+    baseURL: https://godotengine.org/asset-library/api
+    tags:
+      - Asset Library
+      - Community
+      - Marketplace
+      - REST
+    properties:
+      - type: Portal
+        url: https://godotengine.org/asset-library
+      - type: GitHubRepository
+        url: https://github.com/godotengine/godot-asset-library
+      - type: APIReference
+        url: https://github.com/godotengine/godot-asset-library/blob/master/API.md
+common:
+  - url: https://godotengine.org
+    name: Godot Engine Website
+    type: Website
+  - url: https://godotengine.org/download/
+    name: Download Godot
+    type: Download
+  - url: https://docs.godotengine.org/en/stable/
+    name: Godot Documentation
+    type: Documentation
+  - url: https://docs.godotengine.org/en/stable/classes/
+    name: Godot Class Reference
+    type: APIReference
+  - url: https://docs.godotengine.org/en/stable/getting_started/introduction/
+    name: Getting Started with Godot
+    type: GettingStarted
+  - url: https://godotengine.org/asset-library
+    name: Godot Asset Library
+    type: Marketplace
+  - url: https://github.com/godotengine/godot
+    name: Godot Engine on GitHub
+    type: GitHubRepository
+  - url: https://github.com/godotengine
+    name: Godot Engine GitHub Org
+    type: GitHubOrganization
+  - url: https://github.com/godotengine/godot/issues
+    name: Godot Issue Tracker
+    type: IssueTracker
+  - url: https://github.com/godotengine/godot-proposals
+    name: Godot Proposals
+    type: Proposals
+  - url: https://godotengine.org/community/
+    name: Godot Community
+    type: Community
+  - url: https://forum.godotengine.org
+    name: Godot Forum
+    type: Forum
+  - url: https://chat.godotengine.org
+    name: Godot Chat
+    type: Chat
+  - url: https://godotengine.org/contact/
+    name: Contact Godot
+    type: Contact
+  - url: https://godotengine.org/blog/
+    name: Godot Blog
+    type: Blog
+  - url: https://godot.foundation
+    name: Godot Foundation
+    type: ParentOrganization
+  - url: https://godotengine.org/license/
+    name: Godot License (MIT)
+    type: License
+  - url: https://godotengine.org/code-of-conduct/
+    name: Godot Code of Conduct
+    type: CodeOfConduct
+  - url: https://godotengine.org/privacy-policy/
+    name: Godot Privacy Policy
+    type: PrivacyPolicy
+  - url: https://godotengine.org/donate/
+    name: Donate to Godot
+    type: Donate
+  - url: https://x.com/godotengine
+    name: Godot on X
+    type: X
+  - url: https://mastodon.gamedev.place/@godotengine
+    name: Godot on Mastodon
+    type: Mastodon
+  - url: https://www.youtube.com/@Godotengineofficial
+    name: Godot on YouTube
+    type: YouTube
+  - url: https://www.linkedin.com/company/godot-foundation
+    name: Godot Foundation on LinkedIn
+    type: LinkedIn
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
