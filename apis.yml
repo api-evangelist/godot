@@ -174,7 +174,7 @@ common:
     type: Community
   - url: https://forum.godotengine.org
     name: Godot Forum
-    type: Forum
+    type: Forums
   - url: https://chat.godotengine.org
     name: Godot Chat
     type: Chat
