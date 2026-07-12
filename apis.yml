@@ -139,6 +139,10 @@ apis:
       - type: APIReference
         url: https://github.com/godotengine/godot-asset-library/blob/master/API.md
 common:
+  - type: VulnerabilityDisclosure
+    url: security/godot-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/godot-domain-security.yml
   - url: https://godotengine.org
     name: Godot Engine Website
     type: Website
