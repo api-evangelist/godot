@@ -151,6 +151,12 @@ apis:
       - type: APIReference
         url: https://github.com/godotengine/godot-asset-library/blob/master/API.md
 common:
+  - type: Releases
+    url: https://github.com/godotengine/godot/releases
+  - type: CodeOfConduct
+    url: https://github.com/godotengine/.github/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/godotengine/godot/blob/master/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/godot-vulnerability-disclosure.yml
   - type: DomainSecurity
