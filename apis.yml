@@ -14,6 +14,18 @@ description: >-
   in-editor AssetLib browser to list, search, fetch, and download community
   plugins, templates, tools, and demos. The Godot project source lives at
   github.com/godotengine/godot.
+deliveryModel:
+  model: unknown
+  license: Godot License (MIT)
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
