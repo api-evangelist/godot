@@ -45,6 +45,9 @@ modified: '2026-05-23'
 specificationVersion: '0.23'
 type: Index
 access: 3rd-Party
+x-docs-platform: sphinx
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - 2D
   - 3D
@@ -55,7 +58,7 @@ tags:
   - GDExtension
   - GDScript
   - Godot
-  - Open-Source
+  - Open Source
   - Plugins
   - SDK
 tags_raw:
@@ -71,6 +74,7 @@ tags_raw:
   - Open Source
   - Plugin
   - SDK
+  - Open-Source
 apis:
   - aid: godot:godot-gdscript-api
     name: Godot GDScript API
